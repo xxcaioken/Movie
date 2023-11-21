@@ -1,0 +1,377 @@
+body {
+    background-color: #E6E6E6;
+    margin: 0;
+    overflow-x: hidden; 
+}
+
+header {
+    display: flex;
+}
+
+div.container-esquerda {
+    width: 53px;
+    height: 829px;
+    flex-shrink: 0;
+    background: #CACACA;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+div.container-centro {
+    width: 314.984px;
+    height: 1073.12px;
+    transform: rotate(24.285deg);
+    background: #A4A0A0;
+    margin-left: 44%;
+    margin-top: -170px;
+    z-index: 3;
+}
+
+header nav {
+    margin-right: 49px;
+    margin-top: 33px;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+header nav.home {
+    margin-left: -700px;
+}
+main section h1 {
+    color: #000;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 38%; 
+    left: 15%;
+    margin: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+main section h2 {
+    flex-shrink: 0;
+    color: rgba(204, 204, 204, 0.58);
+    font-family: Inter;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    position: absolute;
+    top: 210px;
+    left: 100px;
+    margin: 0;
+    width: 100%;
+    z-index: 1;
+}
+div .circulo{
+    width: 531px;
+    height: 502px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    border: 5px solid #FFF;
+    background: rgba(255, 255, 255, 0.00);
+    position: absolute;
+    top: 390px; 
+    left:78%; 
+    transform: translate(-50%, -50%); 
+    z-index: 2;
+}
+div.quadrado-01{
+    width: 12.149px;
+    height: 276.166px;
+    transform: rotate(23.939deg);
+    flex-shrink: 0;
+    top:160px;
+    left:75.2%;
+    background: #D9D9D9;
+    position: absolute;
+    z-index: 3;
+}
+div .quadrado-02{
+    width: 12.149px;
+    height: 276.166px;
+    transform: rotate(23.939deg);
+    flex-shrink: 0;
+    top:64%;
+    left:66.8%;
+    background: #D9D9D9;
+    position: absolute;
+    z-index: 3;
+}
+div .quadrado-03{
+    width: 12.149px;
+    height: 250.166px;
+    transform: rotate(23.939deg);
+    flex-shrink: 0;
+    top:15%;
+    left:79.4%;
+    background: #D9D9D9;
+    position: absolute;
+    z-index: 3;
+}
+div.quadrado-04{
+    width: 12.149px;
+    height: 276.166px;
+    transform: rotate(23.939deg);
+    flex-shrink: 0;
+    top:50.5%;
+    left:71.4%;
+    background: #D9D9D9;
+    position: absolute;
+    z-index: 3;
+}
+main section div.paragrafo{
+    display: inline;
+}
+main section p4{
+    width: 71px;
+    height: 21px;
+    flex-shrink: 0; 
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    position: absolute;
+    top: 53%;
+    left: 20%;
+}
+main section p5{
+    width: 71px;
+    height: 21px;
+    flex-shrink: 0; 
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    position: absolute;
+    top: 53%;
+    left: 30%;
+}
+main section h3{
+    width: 302px;
+    height: 75px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    top: 53%;
+    left:77%;
+    z-index: 4;
+}
+main section div.borda-new{
+    width: 60px;
+    height: 23px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    top:66.5%;
+    left:77.3%;
+    position: absolute;
+    z-index: 3;
+}
+main section p1{
+    width: 30px;
+    height: 13px;
+    flex-shrink: 0;
+    color: #FF5C00;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    top:67%;
+    left:78%;
+    position: absolute;
+    z-index: 4;
+}
+main section div.borda-classificacao{
+    width: 30px;
+    height: 20px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    top: 67%;
+    left: 83%;
+    position: absolute;
+    z-index: 3;
+}
+main section p2{
+    width: 30px;
+    height: 13px;
+    flex-shrink: 0;
+    color: #FF5C00;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    top: 67%;
+    left: 83.3%;
+    position: absolute;
+    z-index: 4;
+}
+main section nav.play{
+    width: 127px;
+    height: 126px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 50%;
+    left:88.2%;
+    z-index: 2;
+}
+main section div.borda-01{
+    width: 166px;
+    height: 143px;
+    flex-shrink: 0;
+    fill: rgba(165, 165, 165, 0.51);
+    position: absolute;
+    top: 49%;
+    left:85.5%;
+    z-index: 1;
+
+}
+main section div.borda-02{
+    width: 212px;
+    height: 178px;
+    flex-shrink: 0;
+    fill: rgba(186, 186, 186, 0.28);
+    flex-shrink: 0;
+    position: absolute;
+    top: 45%;
+    left:82%;
+    z-index: 1;
+}
+main section div.botoes{
+    display: inline;
+}
+#bt1{
+    position: absolute;
+    display: inline;
+    top: 66%;
+    left:9%;
+}
+#bt2{
+    position: absolute;
+    display: inline;
+    top: 66%;
+    left:15%;
+}
+#bt3{
+    position: absolute;
+    display: inline;
+    top: 66%;
+    left:20%;
+}
+main section p6{
+    width: 144px;
+    height: 21px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    position: absolute;
+    top: 100%;
+    left: 7%;
+}
+video{
+    position: absolute;
+    top: 70%;
+    left: 7%;
+}
+main section h4{
+    width: 42px;
+    height: 12px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    position: absolute;
+    top:110%;
+    left: 7.2%;
+}
+main section h5{
+    width: 42px;
+    height: 12px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    position: absolute;
+    top:109.2%;
+    left: 12%;
+}
+main section div.borda-nota{
+    width: 28px;
+    height: 18px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    position: absolute;
+    top: 118%;
+    left:7.6%;
+}
+main section p7{
+    width: 30px;
+    height: 13px;
+    flex-shrink: 0;
+    color: #FF5C00;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 118%;
+    left:7.8%;
+    z-index: 4;
+}
+main section div.borda-pop{
+    width: 28px;
+    height: 18px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    position: absolute;
+    top: 118%;
+    left:14%;
+}
+main section p8{
+    width: 30px;
+    height: 13px;
+    flex-shrink: 0;
+    color: #FF5C00;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 118%;
+    left:14.6%;
+    z-index: 4;
+}
